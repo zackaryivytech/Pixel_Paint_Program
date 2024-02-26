@@ -10,6 +10,9 @@ public abstract class Tool {
     /** Image icon to represent the tool*/
     private Image icon;
 
+    public enum Tools {PENCIL, ERASER, PAINTBUCKET};
+    public static Tools currentTool;
+
     /**
      * Abstract constructor
      * @param name for the tool
